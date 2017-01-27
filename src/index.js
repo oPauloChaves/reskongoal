@@ -1,4 +1,6 @@
 import './index.css'
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 
 import React from 'react'
 import {render} from 'react-dom'

@@ -1,9 +1,15 @@
 import React from 'react'
+import { Footer, FooterSection, FooterLinkList } from 'react-mdl'
 
-const Footer = () => (
-  <h1>
-    <p>This is the footer</p>
-  </h1>
+const AppFooter = () => (
+  <Footer size="mini">
+    <FooterSection type="left" logo="Reskongoal">
+      <FooterLinkList>
+        <a href="#">Help</a>
+        <a href="#">Privacy & Terms</a>
+      </FooterLinkList>
+    </FooterSection>
+  </Footer>
 )
 
-export default Footer
+export default AppFooter
