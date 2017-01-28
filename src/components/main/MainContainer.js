@@ -29,11 +29,9 @@ class AppMain extends React.Component {
   }
 
   render() {
-    const { pathname } = this.props
-
     return (
       <div>
-        <ProjectList pathname={pathname} projects={this.state.projects} />
+        <ProjectList projects={this.state.projects} />
       </div>
     )
   }

@@ -12,7 +12,7 @@ export default class Project extends React.Component {
         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover' }}>{name}</CardTitle>
         <CardText>{description}</CardText>
         <CardActions border>
-          <Link to={`${pathname}/${id}`}>Open Project</Link>
+          <Link to={`projects/${id}`}>Open Project</Link>
         </CardActions>
         <CardMenu style={{ color: '#fff' }}>
           <IconButton name="share" />
