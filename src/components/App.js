@@ -5,14 +5,15 @@ import { BrowserRouter, Match, Miss, Link } from 'react-router'
 import { Layout, Content, Header, Navigation, Drawer } from 'react-mdl'
 
 import HomePage from './home/HomeContainer'
-import MainPage from './main/MainContainer'
+import ProjectsPage from './main/MainContainer'
+import ProjectPage from './project/ProjectContainer'
 import AboutPage from './about/AboutContainer'
 import NoMatch from './error404/NotFound'
 
 const AppNavigation = () => (
   <Navigation>
     <Link to="/">Home</Link>
-    <Link to="/main">Main</Link>
+    <Link to="/projects">Projects</Link>
     <Link to="/about">About</Link>
   </Navigation>
 )
@@ -43,7 +44,8 @@ const App = () => {
         </AppDrawer>
         <Content>
           <Match exactly pattern="/" component={HomePage} />
-          <Match pattern="/main" component={MainPage} />
+          <Match pattern="/projects" component={ProjectsPage} />
+          <Match pattern="/projects/:id" component={ProjectPage} />
           <Match pattern="/about" component={AboutPage} />
 
           <Miss component={NoMatch} />
