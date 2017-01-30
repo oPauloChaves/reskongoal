@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Paulo",
+      "email": "paulo@test.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "name": "Kall",
+      "email": "kall@test.com",
+      "password": "12345"
+    },
+    {
+      "id": 3,
+      "name": "Tellem",
+      "email": "tellen@test.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "name": "Devemor",
+      "email": "devemor@test.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "name": "Codiac",
+      "email": "codiac@test.com",
+      "password": "12345"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Reskongoal Project",
+      "description": "Task and Project Management Web App built with React + Redux + Material Design",
+      "backColor": "BLUE",
+      "userId": 1,
+      "lists": [
+        {
+          "id": 1,
+          "name": "To Do"
+        },
+        {
+          "id": 2,
+          "name": "Doing"
+        },
+        {
+          "id": 3,
+          "name": "Done"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Just Another Project",
+      "description": "This is project has be something really useful",
+      "backColor": "WHITE",
+      "userId": 1,
+      "lists": [
+        {
+          "id": 1,
+          "name": "To Do"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Third Project",
+      "description": "The Third Projec in my List",
+      "backColor": "ORANGE",
+      "userId": 1,
+      "lists": [
+        {
+          "id": 1,
+          "name": "To Do"
+        },
+        {
+          "id": 2,
+          "name": "To Do"
+        }
+      ]
+    }
+  ],
+  "tasks": []
+}
